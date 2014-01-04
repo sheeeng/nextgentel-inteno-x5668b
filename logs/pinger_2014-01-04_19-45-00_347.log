@@ -1,0 +1,12 @@
+------------------------------------------------------------------------ 
+Local date is [2014-01-04_19-45-00.347]. 
+
+Pinging www.nextgentel.no [217.13.4.117] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 217.13.4.117:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+------------------------------------------------------------------------ 

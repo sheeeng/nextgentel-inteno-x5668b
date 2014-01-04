@@ -1,0 +1,14 @@
+------------------------------------------------------------------------ 
+Local date is [2014-01-04_12-00-00.988]. 
+
+Pinging www.nextgentel.no [217.13.4.117] with 32 bytes of data:
+Reply from 217.13.4.117: bytes=32 time=279ms TTL=245
+Reply from 217.13.4.117: bytes=32 time=372ms TTL=245
+Reply from 217.13.4.117: bytes=32 time=499ms TTL=245
+Reply from 217.13.4.117: bytes=32 time=658ms TTL=245
+
+Ping statistics for 217.13.4.117:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 279ms, Maximum = 658ms, Average = 452ms
+------------------------------------------------------------------------ 
