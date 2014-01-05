@@ -1,0 +1,29 @@
+------------------------------------------------------------------------ 
+Local date is [2014-01-05_18-15-00.430]. 
+Ping request could not find host www.nextgentel.no. Please check the name and try again.
+
+Pinging 80.203.47.1 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 80.203.47.1:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+
+Pinging 217.13.7.140 with 32 bytes of data:
+Reply from 217.13.7.140: bytes=32 time=3233ms TTL=247
+Reply from 217.13.7.140: bytes=32 time=1778ms TTL=247
+
+Ping statistics for 217.13.7.140:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1778ms, Maximum = 3233ms, Average = 2505ms
+
+Pinging 217.13.4.24 with 32 bytes of data:
+Reply from 217.13.4.24: bytes=32 time=2198ms TTL=247
+Reply from 217.13.4.24: bytes=32 time=1260ms TTL=247
+
+Ping statistics for 217.13.4.24:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1260ms, Maximum = 2198ms, Average = 1729ms
+------------------------------------------------------------------------ 
