@@ -18,16 +18,16 @@ Write-Output "------------------------------------------------------------------
 Write-Output "Local date (`$unixDateTime) is [$unixDateTime]." | Tee-Object -Append $outputFile 2>&1
 Write-Output "------------------------------------------------------------------------" | Tee-Object -Append $outputFile 2>&1
 #NextGenTel
-Test-Connection -Count 2 -Verbose www.nextgentel.no | Tee-Object -Append -FilePath $outputFile 2>&1
+Test-Connection -Count 2 -Verbose www.nextgentel.no 2>&1 | Tee-Object -Append -FilePath $outputFile 2>&1
 ping -n 2 www.nextgentel.no | Tee-Object -Append -FilePath $outputFile 2>&1
 Write-Output "------------------------------------------------------------------------" | Tee-Object -Append $outputFile 2>&1
 #Gateway
-Test-Connection -Count 2 -Verbose 80.203.47.1 | Tee-Object -Append -FilePath $outputFile 2>&1
+Test-Connection -Count 2 -Verbose 80.203.47.1 2>&1 | Tee-Object -Append -FilePath $outputFile 2>&1
 ping -n 2 80.203.47.1 | Tee-Object -Append -FilePath $outputFile 2>&1
 Write-Output "------------------------------------------------------------------------" | Tee-Object -Append $outputFile 2>&1
 #DNS Servers
-Test-Connection -Count 2 -Verbose 217.13.7.140 | Tee-Object -Append -FilePath $outputFile 2>&1
-Test-Connection -Count 2 -Verbose 217.13.4.24 | Tee-Object -Append -FilePath $outputFile 2>&1
+Test-Connection -Count 2 -Verbose 217.13.7.140 2>&1 | Tee-Object -Append -FilePath $outputFile 2>&1
+Test-Connection -Count 2 -Verbose 217.13.4.24 2>&1 | Tee-Object -Append -FilePath $outputFile 2>&1
 ping -n 2 217.13.7.140 | Tee-Object -Append -FilePath $outputFile 2>&1
 ping -n 2 217.13.4.24 | Tee-Object -Append -FilePath $outputFile 2>&1
 Write-Output "------------------------------------------------------------------------" | Tee-Object -Append -FilePath $outputFile 2>&1
