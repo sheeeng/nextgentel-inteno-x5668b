@@ -1,0 +1,14 @@
+DSL Router.  Welcome!
+Login: admin
+Password:
+>
+> sntp date
+Mon Jan  6 19:30:07 2014
+> adsl info
+adsl: ADSL driver and PHY status
+Status: Showtime
+Retrain Reason: 8000
+Max:    Upstream rate = 920 Kbps, Downstream rate = 4380 Kbps
+Path:   0, Upstream rate = 916 Kbps, Downstream rate = 3424 Kbps
+> logout
+Logged out.
