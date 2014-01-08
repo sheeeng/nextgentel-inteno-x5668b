@@ -1,4 +1,4 @@
-nextgentel-inteno-x5668b
+﻿nextgentel-inteno-x5668b
 ========================
 
 Debugging scripts for Inteno X5668B router.
