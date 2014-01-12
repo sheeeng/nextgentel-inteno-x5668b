@@ -1,0 +1,16 @@
+adminme to Microsoft Telnet Client
+VebBfB1963
+DSL Router.  Welcome!
+Login: admin
+Password:
+>
+> sntp date
+Sun Jan 12 11:16:56 2014
+> adsl info
+adsl: ADSL driver and PHY status
+Status: Showtime
+Retrain Reason: 8000
+Max:    Upstream rate = 923 Kbps, Downstream rate = 4912 Kbps
+Path:   0, Upstream rate = 766 Kbps, Downstream rate = 3801 Kbps
+> logout
+Logged out.
