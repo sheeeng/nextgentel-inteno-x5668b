@@ -1,0 +1,12 @@
+DSL Router.  Welcome!
+Login: admin
+Password:
+>
+> sntp date
+Sun Jan 19 22:30:16 2014
+> adsl info
+adsl: ADSL driver and PHY status
+Status: G.994 Training
+Retrain Reason: 8000
+> logout
+Logged out.
