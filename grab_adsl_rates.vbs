@@ -36,6 +36,33 @@ WshShell.SendKeys ("sntp date{Enter}")
 WScript.Sleep 200
 WshShell.SendKeys ("adsl info{Enter}")
 WScript.Sleep 2000
+WshShell.SendKeys ("defaultgateway show")
+WshShell.SendKeys ("{Enter}")
+WScript.sleep 200
+WshShell.SendKeys ("dhcpserver show")
+WshShell.SendKeys ("{Enter}")
+WScript.sleep 200
+WshShell.SendKeys ("dns show")
+WshShell.SendKeys ("{Enter}")
+WScript.sleep 200
+WshShell.SendKeys ("swversion show")
+WshShell.SendKeys ("{Enter}")
+WScript.sleep 200
+WshShell.SendKeys ("wan show")
+WshShell.SendKeys ("{Enter}")
+WScript.sleep 200
+WshShell.SendKeys ("sysinfo")
+WshShell.SendKeys ("{Enter}")
+WScript.sleep 200
+WshShell.SendKeys ("wlctl ver")
+WshShell.SendKeys ("{Enter}")
+WScript.sleep 200
+WshShell.SendKeys ("macaddr")
+WshShell.SendKeys ("{Enter}")
+WScript.sleep 200
+WshShell.SendKeys ("serialnum")
+WshShell.SendKeys ("{Enter}")
+WScript.sleep 200
 'Step 3 - Exit Command Window
 WshShell.SendKeys ("logout{Enter}")
 WScript.Sleep 100
