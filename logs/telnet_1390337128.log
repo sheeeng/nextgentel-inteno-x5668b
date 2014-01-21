@@ -1,0 +1,16 @@
+DSL Router.  Welcome!
+Login: admin
+Password:
+>
+> swversion show
+X5668B-W2_3.12NGT09.10
+> serialnum
+566824H128036149
+> sntp date
+Sat Jan  1 00:09:10 2000
+> adsl info
+adsl: ADSL driver and PHY status
+Status: G.994 Training
+Retrain Reason: 8000
+> logout
+Logged out.

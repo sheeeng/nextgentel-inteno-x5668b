@@ -1,0 +1,18 @@
+DSL Router.  Welcome!
+Login: admin
+Password:
+>
+> swversion show
+X5668B-W2_3.12NGT09.09
+> serialnum
+566824H10A023436
+> sntp date
+Tue Jan 21 20:30:24 2014
+> adsl info
+adsl: ADSL driver and PHY status
+Status: Showtime
+Retrain Reason: 8000
+Max:    Upstream rate = 901 Kbps, Downstream rate = 1612 Kbps
+Path:   0, Upstream rate = 764 Kbps, Downstream rate = 824 Kbps
+> logout
+Logged out.
