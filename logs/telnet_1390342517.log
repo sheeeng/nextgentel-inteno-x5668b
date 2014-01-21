@@ -1,0 +1,62 @@
+DSL Router.  Welcome!
+Login: admin
+Password:
+>
+> sntp date
+Sat Jan  1 00:09:27 2000
+> adsl info
+adsl: ADSL driver and PHY status
+Status: G.922 Channel Analysis
+Retrain Reason: 8000
+> defaultgateway show
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+10.0.0.0        *               255.255.255.0   U     0      0        0 br0
+> dhcpserver show
+start 10.0.0.2
+end 10.0.0.254
+interface br0
+decline_file /var/udhcpd.decline
+option lease 60
+option min_lease 30
+option subnet 255.255.255.0
+option router 10.0.0.1
+option dns 10.0.0.1
+option dns 10.0.0.1
+> dns show
+Primary   10.0.0.1
+Secondary 10.0.0.1
+> swversion show
+X5668B-W2_3.12NGT09.10
+> wan show
+VCC     Con.    Catego. Service         Interface       Proto.  IGMP    QoS
+State   Status  IP
+        ID              Name            Name
+                address
+0.1.33  1       UBR     pppoe_1_33_1    ppp_0_1_33_1    PPPoE   Disable Disable
+Enable  ADSL Link Down
+0.8.35  1       UBR     pppoe_8_35_1    ppp_0_8_35_1    PPPoE   Disable Disable
+Enable  ADSL Link Down
+0.1.32  1       UBR     pppoa_1_32_1    ppp_0_1_32_1    PPPoA   Disable Disable
+Enable  ADSL Link Down
+0.8.35  2       UBR     pppoa_8_35_2    ppp_0_8_35_2    PPPoA   Disable Disable
+Enable  ADSL Link Down
+0.8.35  3       UBR     mer_8_35_3      nas_0_8_35_2    MER     Disable Disable
+Enable  ADSL Link Down
+> sysinfo
+Number of processes: 26
+ 12:09am  up 9 min,
+load average: 1 min:0.07, 5 min:0.07, 15 min:0.02
+              total         used         free       shared      buffers
+  Mem:        30204        18612        11592            0         1996
+ Swap:            0            0            0
+Total:        30204        18612        11592
+> wlctl ver
+4.150 RC10.15
+wl0: Nov 20 2007 11:38:54 version 4.150.10.15.cpe2.2
+> macaddr
+00220728B80B
+> serialnum
+566824H128036149
+> logout
+Logged out.
