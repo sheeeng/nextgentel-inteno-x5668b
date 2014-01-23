@@ -1,0 +1,60 @@
+DSL Router.  Welcome!
+Login: admin
+Password:
+>
+> sntp date
+Thu Jan 23 07:45:06 2014
+> adsl info
+adsl: ADSL driver and PHY status
+Status: Showtime
+Retrain Reason: 8000
+Max:    Upstream rate = 945 Kbps, Downstream rate = 2520 Kbps
+Path:   0, Upstream rate = 766 Kbps, Downstream rate = 906 Kbps
+> defaultgateway show
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+80.203.47.1     *               255.255.255.255 UH    0      0        0 ppp_0_1_
+33_1
+10.0.0.0        *               255.255.255.0   U     0      0        0 br0
+default         80.203.47.1     0.0.0.0         UG    0      0        0 ppp_0_1_
+33_1
+> dhcpserver show
+start 10.0.0.2
+end 10.0.0.254
+interface br0
+decline_file /var/udhcpd.decline
+option lease 3600
+option min_lease 30
+option subnet 255.255.255.0
+option router 10.0.0.1
+option dns 217.13.7.140
+option dns 217.13.4.24
+> dns show
+Primary   217.13.7.140
+Secondary 217.13.4.24
+> swversion show
+X5668B-W2_3.12NGT09.09
+> wan show
+VCC     Con.    Catego. Service         Interface       Proto.  IGMP    QoS
+State   Status  IP
+        ID              Name            Name
+                address
+0.1.33  1       UBR     pppoe_1_33_1    ppp_0_1_33_1    PPPoE   Disable Disable
+Enable  Up      80.203.46.139
+> sysinfo
+Number of processes: 29
+  7:45am  up  7:54,
+load average: 1 min:0.00, 5 min:0.00, 15 min:0.00
+              total         used         free       shared      buffers
+  Mem:        30204        20048        10156            0         2136
+ Swap:            0            0            0
+Total:        30204        20048        10156
+> wlctl ver
+4.150 RC10.15
+wl0: Nov 20 2007 11:38:54 version 4.150.10.15.cpe2.2
+> macaddr
+0022070C106B
+> serialnum
+566824H10A023436
+> logout
+Logged out.
