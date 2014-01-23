@@ -1,0 +1,31 @@
+------------------------------------------------------------------------ 
+Local date is [2014-01-22_18-00-00.501]. 
+Ping request could not find host www.nextgentel.no. Please check the name and try again.
+
+Pinging 80.203.47.1 with 32 bytes of data:
+Reply from 80.203.47.1: bytes=32 time=2685ms TTL=254
+Reply from 80.203.47.1: bytes=32 time=2127ms TTL=254
+
+Ping statistics for 80.203.47.1:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2127ms, Maximum = 2685ms, Average = 2406ms
+
+Pinging 217.13.7.140 with 32 bytes of data:
+Reply from 217.13.7.140: bytes=32 time=1974ms TTL=247
+Reply from 217.13.7.140: bytes=32 time=2089ms TTL=247
+
+Ping statistics for 217.13.7.140:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1974ms, Maximum = 2089ms, Average = 2031ms
+
+Pinging 217.13.4.24 with 32 bytes of data:
+Reply from 217.13.4.24: bytes=32 time=2243ms TTL=247
+Reply from 217.13.4.24: bytes=32 time=2350ms TTL=247
+
+Ping statistics for 217.13.4.24:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2243ms, Maximum = 2350ms, Average = 2296ms
+------------------------------------------------------------------------ 
