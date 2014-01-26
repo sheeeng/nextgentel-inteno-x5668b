@@ -1,0 +1,39 @@
+------------------------------------------------------------------------ 
+Local date is [2014-01-26_10-45-00.259]. 
+
+Pinging www.nextgentel.no [217.13.4.117] with 32 bytes of data:
+Reply from 217.13.4.117: bytes=32 time=1097ms TTL=245
+Request timed out.
+
+Ping statistics for 217.13.4.117:
+    Packets: Sent = 2, Received = 1, Lost = 1 (50% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1097ms, Maximum = 1097ms, Average = 1097ms
+
+Pinging 80.203.47.1 with 32 bytes of data:
+Reply from 80.203.47.1: bytes=32 time=1048ms TTL=254
+Reply from 80.203.47.1: bytes=32 time=1170ms TTL=254
+
+Ping statistics for 80.203.47.1:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1048ms, Maximum = 1170ms, Average = 1109ms
+
+Pinging 217.13.7.140 with 32 bytes of data:
+Reply from 217.13.7.140: bytes=32 time=1095ms TTL=247
+Request timed out.
+
+Ping statistics for 217.13.7.140:
+    Packets: Sent = 2, Received = 1, Lost = 1 (50% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1095ms, Maximum = 1095ms, Average = 1095ms
+
+Pinging 217.13.4.24 with 32 bytes of data:
+Reply from 217.13.4.24: bytes=32 time=1234ms TTL=247
+Request timed out.
+
+Ping statistics for 217.13.4.24:
+    Packets: Sent = 2, Received = 1, Lost = 1 (50% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1234ms, Maximum = 1234ms, Average = 1234ms
+------------------------------------------------------------------------ 
